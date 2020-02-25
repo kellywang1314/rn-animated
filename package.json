@@ -1,0 +1,19 @@
+{
+  "name": "rn-animated",
+  "version": "0.0.1",
+  "appVersion": "8.19",
+  "private": true,
+  "scripts": {
+    "start": "crn start",
+    "android": "crn-cli run-android",
+    "ios": "crn-cli run-ios"
+  },
+  "dependencies": {
+    "@ctrip/crn": "git+http://git.dev.sh.ctripcorp.com/crn/crn.git#rel/8.14",
+    "react": "16.9.0",
+    "react-native": "0.61.2"
+  },
+  "iconFont": [
+    "crn_font_ibudiytour"
+]
+}
